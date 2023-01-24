@@ -16,7 +16,6 @@ from sqlalchemy.ext.declarative import declarative_base
 import hashlib
 from flask_gravatar import Gravatar
 import os
-from decouple import config
 from dotenv import load_dotenv
 
 Base = declarative_base()
