@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 Base = declarative_base()
 load_dotenv(r'C:\Users\utkub\Downloads\.env')
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+app.config['SECRET_KEY'] = os.environ.get['SECRET_KEY']
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
