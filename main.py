@@ -19,7 +19,7 @@ import os
 from dotenv import load_dotenv
 
 Base = declarative_base()
-load_dotenv(r'C:\Users\utkub\Downloads\.env')
+# load_dotenv(r'C:\Users\utkub\Downloads\.env')
 app = Flask(__name__)
 ckeditor = CKEditor(app)
 Bootstrap(app)
